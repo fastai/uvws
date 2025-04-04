@@ -1,2 +1,4 @@
+*.swp
+pyproject.toml
 */
 uv.lock
