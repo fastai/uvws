@@ -77,3 +77,6 @@ cd ~/uvws
 
 You can also delete you `pyproject.toml` if you wish to reset your `git add` and `./addnew.py` changes. Replace it with `pyproject.tmpl` to get the fresh version (i.e `cp pyproject.tmpl pyproject.toml`)
 
+## Conda alternative
+
+If you need conda (e.g because you'd like to be able to switch CUDA environments easily) but also want to use `uv sync`, check out this clever technique: [warner-benjamin/uv-tools](https://github.com/warner-benjamin/uv-tools).
