@@ -40,7 +40,7 @@ To pip install packages, just prepend the using `pip install` with `pip`, for in
 uv pip install torch torchvision torchaudio
 ```
 
-A big benefit of uvws is that you can automatically setup all your machines with the same packages. To do so, instead of using `uv pip install`, instead use `uv add`; this also does an install, but also adds the package to uvws's `pyproject.toml`, so when you clone your forked repo and `uv sync` on another machine, you'll get the same packages.
+A big benefit of uvws is that you can automatically setup all your machines with the same packages. To do so, instead of using `uv pip install`, use `uv add`; this also does an install, but also adds the package to uvws's `pyproject.toml`, so when you clone your forked repo and `uv sync` on another machine, you'll get the same packages.
 
 ```bash
 cd ~/uvws
